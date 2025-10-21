@@ -4,6 +4,7 @@
   margin-right: auto;
   max-width: 100%;
   hight: auto;
+  border-radius: 50%;
 }
 
 #score_label {
