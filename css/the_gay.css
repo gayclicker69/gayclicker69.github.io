@@ -10,4 +10,8 @@
 
 #score_label {
   text-align: center;
+  font-size: 2rem;
+  font-weight: bold;
+  margin-top: 20px;
+  font-family: 'Arial', sans-serif;
 }
