@@ -1,6 +1,6 @@
 #the_gay {
   display: block;
-  margin-left: auto;
+  margin-left: 25%;
   margin-right: auto;
   max-width: 100%;
   width: 50%;
@@ -14,4 +14,5 @@
   font-weight: bold;
   margin-top: 20px;
   font-family: 'Arial', sans-serif;
+  margin-left: 25%;
 }
