@@ -8,6 +8,7 @@ buy_men.addEventListener('click', function() {
     score -= men.cost;
     men.num += 1;
     men.cost += 50;
+    cps += 1;
   }
   buy_men_label.textContent = `cost: 100 gayness`;
   window.data.pack();
