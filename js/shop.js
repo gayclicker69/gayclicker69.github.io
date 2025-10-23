@@ -9,6 +9,6 @@ buy_men.addEventListener('click', function() {
     men.num += 1;
     men.cost = math.floor(men.base_cost * math.pow(1.15, men.num));
   }
-  
+  score_label.textContent = `cost: ${men.cost} gayness`;
   window.data.pack();
 });
