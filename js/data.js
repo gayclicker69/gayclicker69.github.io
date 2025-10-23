@@ -2,8 +2,9 @@
 window.data = {  
     score: 0,  
     click_power: 1,
-    men = {
-    
+    men : {
+    cost : 100,
+    men_num : 0
     }
     unpack() {  
         // Assign to global scope  
