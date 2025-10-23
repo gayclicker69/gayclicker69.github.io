@@ -1,5 +1,5 @@
 index.html
-```
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -22,7 +22,7 @@ index.html
 </html>
 ```
 js/the_gay.js
-```
+```js
 window.data.unpack();
 
 const the_gay = document.getElementById('the_gay');
@@ -35,7 +35,7 @@ the_gay.addEventListener('click', function() {
 });
 ```
 js/data.js
-```
+```js
 // data.js  
 window.data = {  
     score: 1,  
@@ -60,7 +60,7 @@ window.data = {
 };
 ```
 js/shop.js
-```
+```js
 window.data.unpack();
 
 const buy_men = document.getElementById("buy_men");
