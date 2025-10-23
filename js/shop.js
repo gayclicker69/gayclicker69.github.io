@@ -1,7 +1,7 @@
 window.data.unpack();
 
 const buy_men = document.getElementById("buy_men");
-const buy_men_label = documen.getElementById("buy_men_label");
+const buy_men_label = document.getElementById("buy_men_label");
 
 buy_men.addEventListener('click', function() {
   if (score >= men.cost) {
