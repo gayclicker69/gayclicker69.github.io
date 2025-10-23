@@ -5,7 +5,7 @@ window.data = {
     cps: 0,
     men : {
         cost : 100,
-        men_num : 0
+        num : 0
     },
     unpack() {  
         // Assign to global scope
