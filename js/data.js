@@ -1,6 +1,6 @@
 // data.js  
 window.data = {  
-    score: 0,  
+    score: 1,  
     click_power: 1,
     men : {
     cost : 100,
