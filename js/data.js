@@ -1,7 +1,10 @@
 // data.js  
 window.data = {  
     score: 0,  
-    click_power: 1,  
+    click_power: 1,
+    men = {
+    
+    }
     unpack() {  
         // Assign to global scope  
         window.score = this.score;  
