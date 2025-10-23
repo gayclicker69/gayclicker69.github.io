@@ -7,7 +7,7 @@ buy_men.addEventListener('click', function() {
   if (score >= men.cost) {
     score -= men.cost;
     men.num += 1;
-    men.cost = math.floor(men.base_cost * math.pow(1.15, men.num));
+    men.cost += 50;
   }
   score_label.textContent = `cost: ${men.cost} gayness`;
   window.data.pack();
