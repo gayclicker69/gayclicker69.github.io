@@ -1,6 +1,25 @@
 index.html
 ```
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>gayclicker69</title>
+  <link rel="stylesheet" type="text/css" href="css/the_gay.css">
+</head>
+<body>
+  <img id="the_gay" src="assets/the_gay.jpg" alt="the gay">
+  <p id="score_label">gayness: 0</p>
+  <div id="shop">
+    <img id="buy_men" src="assets/buy_men.webp" alt="men">
+    <p id="buy_men_cost">cost: hi gayness</p>
+  </div>
+  <script src="js/data.js"></script>
+  <script src="js/the_gay.js"></script>
+  <script src="js/shop.js"></script>
+</body>
+</html>
 ```
 js/the_gay.js
 ```
