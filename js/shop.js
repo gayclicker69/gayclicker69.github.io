@@ -10,6 +10,6 @@ buy_men.addEventListener('click', function() {
     men.cost += 50;
     cps += 1;
   }
-  buy_men_label.textContent = `cost: 100 gayness`;
+  buy_men_label.textContent = `cost: ${men.cost} gayness`;
   window.data.pack();
 });
