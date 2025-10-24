@@ -12,6 +12,6 @@ buy_men.addEventListener('click', function() {
     click_power *= 2;
   }
   buy_fingering_label.textContent = `cost: ${fingering.cost} gayness`;
-  score_label.textContent = `gayness: ${score}`
+  score_label.textContent = `gayness: ${score} hi`
   window.data.pack();
 });
