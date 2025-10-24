@@ -2,8 +2,7 @@
 window.data = {  
     score: 1,  
     click_power: 1,
-    cps: 0,
-    men : {
+    fingering : {
         cost : 100,
         num : 0
     },
@@ -11,12 +10,12 @@ window.data = {
         // Assign to global scope
         window.score = this.score;  
         window.click_power = this.click_power;
-        window.men = this.men;
+        window.fingering = this.fingering;
     },  
     pack() {  
         // Update object from globals  
         this.score = window.score;  
         this.click_power = window.click_power;
-        this.men = window.men;
+        this.fingering = window.fingering;
     }  
 };
