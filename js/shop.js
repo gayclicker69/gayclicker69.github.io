@@ -1,15 +1,17 @@
 window.data.unpack();
 
-const buy_men = document.getElementById("buy_men");
-const buy_men_label = document.getElementById("buy_men_label");
+const buy_fingering = document.getElementById("buy_fingering");
+const buy_fingering_label = document.getElementById("but_fingering_label");
+const scote_label = document.getElementById("score_label");
 
 buy_men.addEventListener('click', function() {
-  if (score >= men.cost) {
-    score -= men.cost;
-    men.num += 1;
-    men.cost += 50;
-    cps += 1;
+  if (score >= fingering.cost) {
+    score -= fingering.cost;
+    fingering.num += 1;
+    fingering.cost += 50;
+    click_power *= 2;
   }
-  buy_men_label.textContent = `cost: ${men.cost} gayness`;
+  buy_fingering_label.textContent = `cost: ${fingering.cost} gayness`;
+  score_label.textContent = `gayness: ${score}`
   window.data.pack();
 });
