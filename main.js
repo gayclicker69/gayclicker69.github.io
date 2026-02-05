@@ -31,8 +31,9 @@ function on_the_gay_click() {
 function on_hand_upgrade_click() {
   if (gayness >= hand_upgrade_cost) {
     gayness -= hand_upgrade_cost;
-    hand_upgrade_amount += 1;
+    hand_upgrade_amount += 1; 
     hand_upgrade_cost = calc_cost(hand_upgrade_amount, 25);
+    click_power *= 2;
     update_labels();
   }
 }
@@ -43,6 +44,7 @@ function on_flag_upgrade_click() {
     gayness -= flag_upgrade_cost;
     flag_upgrade_amount += 1;
     flag_upgrade_cost = calc_cost(flag_upgrade_amount, 100);
+    gayness_a_second += 1;
     update_labels();
   }
 }
@@ -84,7 +86,7 @@ function update_labels() {
 // ====================
 
 setInterval(() => {
-  gayness += hand_upgrade_amount;
+  gayness += gayness_a_second;
   update_labels();
 }, 1000);
 
