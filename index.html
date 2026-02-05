@@ -2,19 +2,34 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>gayclicker69</title>
-  <link rel="stylesheet" type="text/css" href="css/the_gay.css">
+  <title>GayClicker69</title>
 </head>
 <body>
-  <img id="the_gay" src="assets/the_gay.jpg" alt="the gay">
-  <p id="score_label">gayness: 0</p>
-  <div id="shop">
-    <img id="buy_fingering" src="assets/buy_hand.jpeg" alt="fingering">
-    <p id="buy_fingering_label">cost: 12 gayness</p>
+  <!-- Left side: clickable elements -->
+  <img id="the_gay" src="res/the_gay/the_gay.png" alt="the_gay, click me">
+  <img id="light_dark_toggle" src="res/light_dark_mode_toggle/moon.png" alt="Toggle dark/light">
+  <p id="gayness_label"></p>
+  <p id="click_power"></p>
+  <p id="gayness_a_second"></p>
+
+  <!-- Right side: shop/upgrades -->
+  <div class="shop">
+    <div class="upgrade hand_upgrade">
+      <img class="upgrade_icon" src="res/upgrades/hand_upgrade.png">
+      <p class="upgrade_cost_label"></p>
+      <p class="upgrade_name_label">hand</p>
+      <p class="upgrade_amount_label"></p>
+    </div>
+    <div class="upgrade flag_upgrade">
+      <img class="upgrade_icon" src="res/upgrades/flag_upgrade.png">
+      <p class="upgrade_cost_label"></p>
+      <p class="upgrade_name_label">pride flag</p>
+      <p class="upgrade_amount_label"></p>
+    </div>
   </div>
-  <script src="js/data.js"></script>
-  <script src="js/the_gay.js"></script>
-  <script src="js/shop.js"></script>
+
+  <!-- JS will go below -->
+  <script src="main.js"></script>
+  <!-- CSS can go in <head> or separate file -->
 </body>
 </html>
