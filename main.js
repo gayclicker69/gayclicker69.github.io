@@ -67,8 +67,8 @@ function calc_cost(amount, base_cost) {
 function update_labels() {
   // Left-side labels
   document.getElementById('gayness_label').innerText = `Gayness: ${Math.floor(gayness)}`;
-  document.getElementById('click_power').innerText = `Click Power: ${click_power + flag_upgrade_amount}`;
-  document.getElementById('gayness_a_second').innerText = `Gayness/sec: ${hand_upgrade_amount}`;
+  document.getElementById('click_power').innerText = `Click Power: ${click_power}`;
+  document.getElementById('gayness_a_second').innerText = `Gayness/sec: ${gayness_a_second}`;
 
   // Upgrade labels
   const handUpgrade = document.querySelector('.hand_upgrade');
